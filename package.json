@@ -1,0 +1,27 @@
+{
+  "name": "mosaic-apex",
+  "version": "0.1.0",
+  "description": "The experimental client web application for [Mosaic](https://mosaicscience.com/).",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellcometrust/mosaic-apex.git"
+  },
+  "author": "Jakub Fiala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wellcometrust/mosaic-apex/issues"
+  },
+  "homepage": "https://github.com/wellcometrust/mosaic-apex#readme"
+}
