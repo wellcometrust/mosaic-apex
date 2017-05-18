@@ -18,7 +18,7 @@ const paragraphs = [
 export default class Apex extends React.Component {
   static async getInitialProps({ query }) {
     try {
-      const response = await fetch(`http://39a893cf.ngrok.io/node/${query.id || 1133}?_format=json`);
+      const response = await fetch(`https://39a893cf.ngrok.io/node/${query.id || 1133}?_format=json`);
       const article = await response.json();
       return { article };
     }

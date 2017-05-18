@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default class Footer extends React.Component {
   constructor(props) {
@@ -12,11 +13,11 @@ export default class Footer extends React.Component {
           <p className="back-to-top"><a href="#">Back to Top</a></p>
           <nav className="main-nav main-nav--footer" role="navigation">
             <ul className="menu">
-              <li><a href="/">home</a></li>
-              <li><a href="/stories">stories</a></li>
-              <li><a href="/topics">topics</a></li>
-              <li><a href="/people">People</a></li>
-              <li><a href="/about-mosaic">about</a></li>
+              <li><Link href="/"><a>home</a></Link></li>
+              <li><a href="https://mosaicscience.com/stories">stories</a></li>
+              <li><a href="https://mosaicscience.com/topics">topics</a></li>
+              <li><a href="https://mosaicscience.com/people">People</a></li>
+              <li><a href="https://mosaicscience.com/about-mosaic">about</a></li>
             </ul>
           </nav>
           <div className="footer-details">
