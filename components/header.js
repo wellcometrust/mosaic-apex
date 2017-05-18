@@ -10,7 +10,7 @@ export default class Header extends React.Component {
     return (
       <header className="site-header" role="banner">
         <div className="wrap" style={{ marginTop: '10px' }}>
-          <h1 style={{ color: 'white' }}>🗻 Mosaic</h1>
+          <h1 style={{ color: 'white' }}><Link href="/"><a>🗻 Mosaic</a></Link></h1>
           <a className="nav-link" href="#footer">Menu</a>
           <div className="main-nav main-nav--header show">
             <nav>
