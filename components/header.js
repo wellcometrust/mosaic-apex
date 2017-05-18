@@ -8,8 +8,8 @@ export default class Header extends React.Component {
   render() {
     return (
       <header className="site-header" role="banner">
-        <div className="wrap">
-          <a className="logo-mo" href="/">Mosaic, the science of life</a>
+        <div className="wrap" style={{ 'margin-top': '10px' }}>
+          <h1 style={{ color: 'white' }}>🗻 Mosaic</h1>
           <a className="nav-link" href="#footer">Menu</a>
           <div className="main-nav main-nav--header show">
             <nav>
