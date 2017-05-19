@@ -1,0 +1,8 @@
+{
+  "name": "Mosaic Apex",
+  "description": "mosaic apex",
+  "repository": "https://github.com/wellcometrust/mosaic-apex",
+  "logo": "https://mosaicscience.com/sites/all/themes/mwt_base/css/assets/png-fallback/logo-mosaic2x.png",
+  "keywords": ["node", "next.js", "heroku"],
+  "image": "heroku/nodejs"
+}

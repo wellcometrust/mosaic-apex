@@ -44,7 +44,7 @@ export default class Apex extends React.Component {
               <Article
                 title={this.props.article.title}
                 abstract={striptags(this.props.article.field_story_abstract)}
-                heroImage={heroImage}
+                heroImage={this.props.article.field_story_heroimage}
                 paragraphs={paragraphs}
                 pubdate={new Date(this.props.article.field_publish_date || 0)}>
               </Article>

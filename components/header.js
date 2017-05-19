@@ -16,10 +16,9 @@ export default class Header extends React.Component {
             <nav>
               <ul>
                 <li className="current"><a href="/" className="active">home</a></li>
-                <li><Link href="/story?id=1135"><a>Story 1</a></Link></li>
-                <li><Link href="/story?id=1009"><a>Story 2</a></Link></li>
-                <li><Link href="/story?id=983"><a>Story 3</a></Link></li>
-                <li><Link href="/story?id=945"><a>Story 4</a></Link></li>
+                <li><Link prefetch href="/story?id=1133"><a>Story 1</a></Link></li>
+                <li><Link prefetch href="/story?id=1187"><a>Story 2</a></Link></li>
+                <li><Link prefetch href="/story?id=1131"><a>Story 3</a></Link></li>
               </ul>
             </nav>
           </div>
