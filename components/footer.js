@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
           <nav className="main-nav main-nav--footer" role="navigation">
             <ul className="menu">
               <li><Link href="/"><a>home</a></Link></li>
-              <li><a href="https://mosaicscience.com/stories">stories</a></li>
+              <li><a href="/stories">stories</a></li>
               <li><a href="https://mosaicscience.com/topics">topics</a></li>
               <li><a href="https://mosaicscience.com/people">People</a></li>
               <li><a href="https://mosaicscience.com/about-mosaic">about</a></li>

@@ -48,7 +48,7 @@ export default class Apex extends React.Component {
                 paragraphs={paragraphs}
                 pubdate={new Date(this.props.article.field_publish_date[0].value)}>
               </Article>
-            ) : <h2>404: Not Found</h2>
+            ) : <h2 style={{ textAlign: 'center' }}>404: Not Found</h2>
           }
         </div>
         <Footer />
