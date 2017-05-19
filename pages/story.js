@@ -42,11 +42,11 @@ export default class Apex extends React.Component {
           {
             this.props.article ? (
               <Article
-                title={this.props.article.title[0].value}
-                abstract={striptags(this.props.article.field_story_abstract[0].value)}
+                title={this.props.article.title}
+                abstract={striptags(this.props.article.field_story_abstract)}
                 heroImage={heroImage}
                 paragraphs={paragraphs}
-                pubdate={new Date(this.props.article.field_publish_date[0].value)}>
+                pubdate={new Date(this.props.article.field_publish_date || 0)}>
               </Article>
             ) : <h2 style={{ textAlign: 'center' }}>404: Not Found</h2>
           }
