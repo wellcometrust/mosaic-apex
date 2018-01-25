@@ -7,9 +7,9 @@
     "fetch-ponyfill": "^4.0.0",
     "koa": "^2.2.0",
     "koa-router": "^7.1.1",
-    "next": "^2.4.9",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "striptags": "^3.0.1"
   },
   "devDependencies": {},
